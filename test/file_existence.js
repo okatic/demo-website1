@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 import glob from 'glob';
 
-import pkg  from './../package.json';
+import pkg  from '../JSON/package.json';
 
 const dirs = pkg['h5bp-configs'].directories;
 

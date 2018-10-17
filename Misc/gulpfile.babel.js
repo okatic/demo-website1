@@ -17,8 +17,8 @@ import del from 'del';
 import ssri from 'ssri';
 import modernizr from 'modernizr';
 
-import pkg from './package.json';
-import modernizrConfig from './modernizr-config.json';
+import pkg from '../JSON/package.json';
+import modernizrConfig from '../modernizr-config.json';
 
 
 const dirs = pkg['h5bp-configs'].directories;
