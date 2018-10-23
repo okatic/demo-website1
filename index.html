@@ -3,35 +3,308 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Oliver's Block</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Cool Bros, Cold Brews</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="../untitled/src/site.webmanifest">
   <link rel="apple-touch-icon" href="../untitled/src/icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="../untitled/src/css/main.css">
+    <!-- favicon -->
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- fonts-->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <!-- links to stylesheets-->
+  <link href="assets/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="assets/site-navigation.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts.css" rel="stylesheet" type="text/css">
+    <link href="assets/buttons.css" rel="stylesheet" type="text/css">
+    <link href="assets/containers.css" rel="stylesheet" type="text/css">
+    <link href="src/css/bulma.css" rel="stylesheet" type="text/css">
+    <style>
+
+        .hero {
+            background: black url("assets/images/hero-1.png") center / cover;
+        }
+        @media (max-width: 1024px) { .hero { background: black url(assets/images/hero-1.png) center / cover; } }
+        @media (max-width:  768px) { .hero { background: black url(assets/images/hero-1.png) center / cover; } }
+
+        .padding {
+            padding-top: 200px;
+        }
+
+        .section-spacer {
+            margin-bottom: 20px;
+        }
+
+        .herobox-margin {
+            justify-content: left;
+        }
+
+        .sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0px;
+            padding: 0px;
+            background-color: #FFFFFF;
+
+        }
+
+        .header-opacity {
+            opacity: .9;
+        }
+
+        .center {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+
+    </style>
 </head>
-
 <body>
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
-<!-- Add your site or application content here -->
+<!-- start of main site content ->
 
-<div>
-  <h1>Welcome to the life portfolio of Oliver</h1>
+<!-- site navigation-->
+<section>
+    <nav class="navbar is-fixed-top is-light header-opacity" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://www.oliversblock.com">
+                <img src="assets/images/coffee-header.png" width="36" height="56">
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu has-text-right">
+            <div class="navbar-start">
+                <a  class="navbar-item">Home</a>
+                <a  class="navbar-item">Locations</a>
+            </div>
+        <div class="navbar-end">
+        </div>
+    </nav>
+</section>
+<!-- end of site navigation -->
 
-  <em>By Oliver Andersen on October 17, 2019 - yes, welcome to the future</em>
-  <section>
-    <img src="https://i.imgur.com/6tE8zlk.png" alt="This is a picture that describes homes">
-    <p>There is a simple reason why Web Developer is such a hot job right now. Put simply, what Web Developers do is create how we experience … the web. If you proceed from the notion that every person who engages with the web would prefer a great experience, then you can say that everyone who engages with the web would prefer that a Web Developer have done a great job. Companies of course know this, so they hire Web Developers to ensure their sites provide great experiences. So, lots of websites and lots of users means lots of demand. LOTS of demand. 🔥</p>
-</div>
-<button>Click here to learn more!</button>
+<!--header section -->
+<section class="hero is-fullheight is-fullwidth is-centered">
+    <div class="container padding">
+        <div class="container section">
+            <div class="column is-one-third-desktop herobox-margin">
+                <div class="notification is-light">
+                    <div class="column has-text-weight-bold has-text-white has-text-left">
+                        <h1 class="title is-size-1 has-text-grey    ">Goodbye to watered down ice coffee</h1>
+                        <p class="is-size-4 has-text-grey-light">
+                            Keep an eye out for our bicycle carts...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- emd of header section -->
+
+<!--start of main three column section  -->
+
+<section class="section has-background-light">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="notification is-info is-info1">
+                        <h1 class="title is-size-4">The coffee revolution</h1>
+                        <p class="is-size-5">
+                            The coffee cart of the century
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="notification is-primary">
+                        <h1 class="title is-size-4">Cool bros, cold brews</h1>
+                        <p class="is-size-5">
+                            Coming soon
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="notification is-success">
+                        <h1 class="title is-size-4">Dem boyz</h1>
+                        <p class="is-size-5">
+                            To a city near you
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!--end of main three column section -->
+
+<!--start of item list  -->
+
+<section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-one-third">
+                    <article class="media notification has-background-white">
+                        <figure class="media-left">
+								<span class="icon has-text-">
+									<i class="fas fa-info-circle"></i>
+								</span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h1 class="title is-size-4">Coffee?</h1>
+                                <p class="subtitle is-size-5">
+                                    Something about coffee
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="column is-one-third">
+                    <article class="media notification has-background-white">
+                        <figure class="media-left">
+								<span class="icon has-text">
+									<i class="fas fa- fa-align-justify"></i>
+								</span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h1 class="title is-size-4">…Covfefe</h1>
+                                <p class="is-size-5">
+                                    I wonder what he really meant to say....
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="column is-one-third">
+                    <article class="media notification has-background-white">
+                        <figure class="media-left">
+								<span class="icon has-text-">
+									<i class="fab fa-lg fa-css3-alt"></i>
+								</span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h1 class="title is-size-4">Coffee?</h1>
+                                <p class="subtitle is-size-5">
+                                    Something about coffee
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="column is-one-third">
+                    <article class="media notification has-background-white">
+                        <figure class="media-left">
+								<span class="icon has-text">
+									<i class="fas fa- fa-align-justify"></i>
+								</span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h1 class="title is-size-4">…Covfefe?</h1>
+                                <p class="is-size-5">
+                                    I wonder what he really meant to say
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="column is-one-third">
+                    <article class="media notification has-background-white">
+                        <figure class="media-left">
+								<span class="icon has-text-">
+									<i class="fab fa-lg fa-css3-alt"></i>
+								</span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h1 class="title is-size-4">Coffee?</h1>
+                                <p class="subtitle is-size-5">
+                                    Something about coffee
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="column is-one-third">
+                    <article class="media notification has-background-white">
+                        <figure class="media-left">
+								<span class="icon has-text">
+									<i class="fas fa- fa-align-justify"></i>
+								</span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h1 class="title is-size-4">…What should we name this?</h1>
+                                <p class="is-size-5">
+                                    Chris sugggested Kalkar's Koffee Kart so we can abbreviate it....idk
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--end of column list section -->
+
+<!-- progress bar -->
+<section>
+    <div class="container is-two-thirds has-background-white">
+        <progress class="progress is-primary is-large is-center" value="25" max="100"55%</progress>
+    </div>
+
+    <div class="section-spacer"></div>
+
+        <div class="container has-background-white">
+             <div class="columns">
+                <div class="column">
+                    <div class="notification has-background-white">
+                        <div class="content has-text-centered">
+                            <h3 class="title is-size-5  content center"> Concept still half-baked... loading...25% done</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</section>
+<!-- end of progress bar -->
+
+<!-- space section -->
+<section>
+    <div class="section-spacer"></div>
+</section>
+<!-- end of space section -->
+
+<!-- start of footer -->
+<section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                The Coffee Boys 2019 by <b>The three stooges</b> (Oliver, Chris, Lasse)
+            </p>
+        </div>
+    </footer>
+</section>
+<!-- end of footer -->
+
+<!-- end of main site content -->
 
 <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
 <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>

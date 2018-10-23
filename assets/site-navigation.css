@@ -1,0 +1,29 @@
+/* sticky element to top of screen with a 95% opacity to allow to still see some of the content in the back */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: .95;
+}
+
+/* this is the element that will make the header sticky*/
+
+.sticky-header {
+
+    overflow-x: hidden;
+    position: sticky;
+    opacity: 0%;
+    top: -1px;
+    z-index: 500;
+    background: #ececec;;;
+    border-top: 1px solid rgba(7,96,115,.07);
+    border-bottom: 1px solid rgba(7,96,115,.07);
+    box-sizing: border-box;
+
+}
+
+@media (max-width: 768px)
+    #partnersStickyHeader
+    overflow: auto
+    white-space: nowrap

@@ -1,0 +1,42 @@
+
+#menu li {
+    display:inline-block;
+}
+
+/* this is the element that will style the text inside the header */
+
+.local-header {
+
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: .025em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #8898aa;
+    display: block;
+    transition: color .1s ease;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    white-space: normal;
+    text-align: center;
+    padding: 0 16px;
+    list-style: none;
+    font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+body {
+    background-color: white;
+
+
+@import "assets/buttons.css";
+@import "assets/containers.css";
+@import "assets/site-navigation.css";
+@import "assets/fonts.css";
+
+
+

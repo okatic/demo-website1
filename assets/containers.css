@@ -1,0 +1,52 @@
+/* This is a container that will serve as a general box in which we can place shit*/
+
+.hero-container {
+
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(128, 89, 255));
+    width: 100%;
+    height: 400px;
+    padding-top: 200px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 25px;
+    alignment: center;
+    text-align: center;
+
+}
+
+
+/* This is a container that will serve as a general box in which we can place shit*/
+
+.wide-container {
+
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0;
+    scroll-snap-margin-block-start: 1em;
+    scroll-snap-margin-block-end: 1em;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "pnum";
+    font-variant-numeric: proportional-nums;
+    scroll-padding-inline-start: 40px;
+    background-color: #ececec;
+
+}
+
+
+
